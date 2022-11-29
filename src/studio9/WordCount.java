@@ -30,7 +30,7 @@ public class WordCount {
 
 	public static Map<String, Integer> countWords(List<String> words) {
 		Map<String, Integer> result= new HashMap<>();
-		for(String word: words)
+		for(String word: words) // this is a for each loop so use ":" to go thru each
 		{
 			if (result.get(word)==null)
 			{
